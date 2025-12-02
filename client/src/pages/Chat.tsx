@@ -134,7 +134,7 @@ const Chat = () => {
 
   // API call function
   const sendMessageToAPI = async (message: string): Promise<ChatResponse> => {
-    const response = await fetch('http://localhost:3000/chat', {
+    const response = await fetch('https://my-portfolio-with-backend-blogs.onrender.com/chat', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
