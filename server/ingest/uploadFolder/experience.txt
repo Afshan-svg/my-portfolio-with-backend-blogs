@@ -1,0 +1,79 @@
+AT SJ INNOVATION HERE ARE THE PROJECTS I HAVE WORKED WITH ON DIVERSE TECH STACKS
+HERE ARE THE DETAILED CLIENT PROJECT INFO I HAVE WORKED AT SJINNOVATION
+
+1. ICR Dashboard
+   - Comprehensive financial dashboard displaying client’s financial data with interactive visualizations
+   - Built responsive dashboard using React.js
+   - Implemented React Charts for financial data visualization
+   - Created interactive data filtering and reporting features
+   - Technologies: React.js, React Charts, TailwindCSS, REST API
+
+2. PRT React Native App
+   - Contributed to the React Native mobile application, developing key features and learning mobile app development
+   - Developed 2-3 features for the mobile application
+   - Learned React Native development patterns
+   - Gained experience with Gradle build system
+   - Handled app building and deployment processes
+   - Technologies: React Native, Gradle, JavaScript, Mobile Development
+
+3. PRT Web (Magento)
+   - Worked on Magento-based web platform for feature development and automated reporting
+   - Feature development on Magento platform
+   - Built email reporting system for weekly website/app visitor stats
+   - Client report automation and delivery
+   - Technologies: Magento, PHP, Email Integration, Analytics
+
+4. TutorGPT
+   - Educational platform where teachers create personalized AI agents for their use cases
+   - Developed embedded code feature for agent creation
+   - Built embeddable widget system for third-party integration
+   - Users can place generated code on any website to integrate their custom agent
+   - Technologies: React.js, Node.js, OpenAI API, Embedded Widgets, JavaScript
+
+5. CollabAI
+   - Company’s flagship AI product with dynamic app integration and advanced agent capabilities
+   - Built Dynamic App Integration Module
+   - Implemented Slack integration for AI agents
+   - Developed custom app creation system where users can add relevant APIs
+   - Integrated function calling to allow agents to call APIs dynamically
+   - Technologies: Node.js, React.js, Slack API, Function Calling, OpenAI, MongoDB
+
+6. App.CollabAI (SaaS)
+   - SaaS version of the company product
+   - Served as Lead Developer
+   - Fixed critical issues in Stripe subscription module (2 years after initial development)
+   - Resolved deployment blockers
+   - Built additional AI agent integration features
+   - Technologies: React.js, Node.js, Stripe, MongoDB, OpenAI, SaaS Architecture
+
+7. PureHealth
+   - Medical company automation platform for processing facesheets and insurance claims using AI
+   - Built React frontend with n8n backend integration
+   - Implemented AWS Textract for document processing
+   - Used Gemini AI for intelligent text extraction
+   - CMS form mapping and auto-filling
+   - Integrated Tebra APIs for patient creation and insurance claims
+   - Technologies: React.js, n8n, AWS Textract, Gemini AI, Tebra API, Healthcare APIs
+
+8. Starling Diagnostics
+   - Project management module for a medical diagnostics center with task assignment and tracking
+   - Built complete project management system
+   - Excel upload and task assignment to coordinators
+   - Patient appointment confirmation tracking
+   - Status and comments management system
+   - Developed using React and Lovable
+   - Technologies: React.js, Lovable, Excel Processing, Task Management
+
+9. ICR Capital AI
+   - Comprehensive financial website with 5 integrated applications for trading and analysis
+   - Built main app using MERN stack with OpenAI integration
+   - Developed 4 Python/Django financial applications:
+     • Call Spread Bidder - Options trading tool
+     • Data Depot - Financial data management
+     • Convert Pricer - Conversion pricing calculator
+     • Call Spread Pricer - Spread pricing tool
+   - Implemented complex financial calculations and bidder form submissions
+   - Technologies: MERN Stack, Django, Python, OpenAI API, Financial APIs, PostgreSQL
+```
+
+These are all the client and company projects I have worked on at SJ Innovation, covering diverse domains including Finance, Healthcare, EdTech, E-Commerce, Mobile Development, and AI-powered SaaS products.

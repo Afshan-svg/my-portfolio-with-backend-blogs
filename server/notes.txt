@@ -1,0 +1,23 @@
+1. chunk.js
+
+This file takes a long text (like your entire biography or a large document) and splits it into smaller, manageable chunks. Chunks help embeddings work better, because models handle and index smaller text pieces more accurately. The function ensures each chunk stays within a safe size limit so the embedding API doesn’t overload, and your RAG search returns more precise matches.
+
+2. embed.js
+
+This file calls OpenAI’s embeddings API. It takes one or multiple text chunks and converts them into high-dimensional vectors (usually 1536-dim). These embeddings represent meaning, so later when a user asks a question, you can compare vectors to find the most relevant pieces of text. The file ensures proper shaping, batching, and returns clean vectors ready for PostgreSQL + pgvector insertion.
+
+3. preprocess.js
+
+This is your offline ingestion pipeline. It scans the upload folder, reads each file, chunks it, embeds each chunk, and inserts them into your PostgreSQL database (rag_docs table). It runs once whenever you add or update content. This is how your bot gets “knowledge” — all the stored embeddings come from what this script processes.
+
+4. retrieve.js
+
+This file powers the RAG search during chat. When a user asks a question, this module embeds the query, performs a similarity search against pgvector, fetches the top-K closest chunks, and returns them to the chat logic. Its job is basically: “Given this question, which stored text is most relevant?” This is the brain of your retrieval.
+
+5. prompt.js
+
+This file controls the personality, tone, style, and safety of the AI. It creates the system prompt (“You are Afshan… speak in first person… don’t reveal context… be short…”), formats the retrieved chunks into hidden context, and builds the message array sent to OpenAI. It ensures your bot talks like you, stays friendly, stays concise, and avoids hallucinating.
+
+6. server.js
+
+This is your main API server. It handles /chat requests, manages sessions, retrieves relevant chunks through retrieve.js, builds prompts via prompt.js, calls OpenAI to generate answers, and sends them back to the frontend. It also provides streaming support and exposes blog routes. It orchestrates the entire RAG flow from query → retrieval → answer.

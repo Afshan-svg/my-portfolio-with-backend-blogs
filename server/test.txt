@@ -1,0 +1,97 @@
+﻿**Personal Information:**
+
+
+*   **Name:** Afshan Khan Dasankop
+*   **Date of Birth:** November 5, 2002 (same day as Virat Kohli)
+*   **Father:** Ayub Khan Dasankop
+*   **Mother:** Shaheen Khan
+*   **Siblings:** Two brothers, Gouse Khan and Aazam Khan
+*   **From:** Goa, India
+*   **Native Place:** Dharwad, Karnataka, India
+*   **Relationship Status:** Currently Single.  Previously dated someone and experienced heartbreak.
+*   **Hobbies:** Cricket, F1, Coding, Watching Anime, Tea Lover
+
+
+**Education:**
+
+
+*   **Primary School (1st-4th Grade):** Daisy Duck School
+*   **Middle & High School (5th-10th Grade):** Bhatikar Model High School
+*   **Higher Secondary School (11th-12th Grade):** Shree Damodar Higher Secondary School of Science
+*   **Engineering College:** Padre Conceicao College of Engineering (PCCE)
+*   **Degree:** Information Technology (Engineering)
+*   **Entrance Exams:** Attempted JEE, scored well in GCET (leading to PCCE admission)
+
+
+**Academic Performance:**
+
+
+*   **1st-4th Grade:** Class Topper (highest scores)
+*   **5th-7th Grade:** Average Student
+*   **8th-10th Grade:** Improved significantly; became a "smart" student
+*   **11th-12th Grade:** Distracted, scored decent marks.
+
+
+**Entrepreneurial Ventures:**
+
+
+*   **Instagram Page: techknwledg**
+    *   Growth: Reached 11k followers in 3 months, then 30k followers in 2 more months.
+*   **Small Business (Ethical Hacking Tools):**
+    *   Briefly sold ethical hacking tools.
+    *   Stopped due to concerns about misuse.
+
+
+**Internship Experience:**
+
+
+1.  **Smilekeepers Foundation (NGO):**
+    *   **Role:** Graphic Designer
+    *   **Dates:** November 2022 - February 2023 (3 months)
+    *   **Responsibilities:** Designed posters for NGO campaigns.
+
+
+2.  **Flashlab Creative:**
+    *   **Role:** Frontend Developer
+    *   **Dates:** August 2023 - October 2023 (2 months)
+    *   **Responsibilities:** Created two websites for clients: Sochi Beach, A Restaurant Client
+
+
+3.  **Insights Media:**
+    *   **Role:** Full Stack Developer (Paid Internship)
+    *   **Nature of role:** Recruited via linkedin, offered internship and full time.
+    *   **Reason for not continuing full time:** Limited growth opportunities as a developer, company more focused on digital marketing.
+    *   **Tech Stack:** Next.js (Frontend), Django (Backend)
+    *   **Responsibilities:** Worked on company website (Insights Media) and casino websites (Galaxy Casino, Cadillac Casino)
+    *   **Specific technologies:** Nextjs frontend and backend in Django.
+
+
+**Professional Experience:**
+
+
+*   **Company:** SJ Innovation
+*   **Role:** Junior Software Engineer (Campus Placement)
+*   **First Project (Legred):** Frontend developer in ICR Dashboard project (1 month)
+*   **PRT Projects (2-4 months):**
+    *   PRT Mobile App (React Native)
+    *   PRT Website (Magento)
+    *   **Team members:** Akshay and Shubham
+*   **AI SaaS Products (5th-12th months):**
+    *   **Collab AI:** Integration platform to connect and use different apps dynamically.
+    *   **Tutorgpt:** Tool to embed AI agents into websites (PHP, WordPress, ReactJS, etc.)
+    *   **App.collabai:** SaaS platform related to Collab AI.
+
+
+**Current Projects (AI-Related):**
+
+
+1.  **Purehealth:**
+    *   **Description:** Converted Dr. Facesheet into a CMS form.
+    *   **Tech Stack:** React (Frontend), N8N (Backend), N8N APIs
+2.  **Starling:**
+    *   **Description:** Smart task and appointment management app.
+    *   **Tech Stack:** React (Frontend), Supabase (Backend)
+3.  **ICR AI:**
+    *   **Tech Stack:** MERN stack (MongoDB, Express.js, React, Node.js) + Python Django
+    *   **Backend:** PostgreSQL and MongoDB
+    *   **Project:** Worked on mcp.

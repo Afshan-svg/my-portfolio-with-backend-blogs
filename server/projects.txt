@@ -1,0 +1,66 @@
+Here are some of the personal projects i have worked on
+
+1. Building an Offline-First Task Manager with Flutter and Node.js
+   - Full-stack offline-first task management application
+   - Flutter frontend with Bloc Cubit for state management, Shared Preferences for token persistence, SQLite for local task storage with isSynced flag
+   - Authentication pages (sign-up, login), homepage for task management, add task page with color picker, form validation, global theming
+   - Node.js + Express + TypeScript backend with Drizzle ORM and PostgreSQL as remote database
+   - JWT-based authentication, bcrypt password hashing, secure protected routes
+   - Automatic background synchronization of unsynced tasks when connectivity is restored
+   - Connectivity monitoring for seamless online/offline experience
+   - Fully dockerized backend and PostgreSQL using Docker Compose with persistent volumes
+
+2. Building a Apple MacBook Pro Landing Page Clone
+   - Premium, high-fidelity clone of Apple’s official MacBook Pro landing page
+   - Cinematic hero section with animated MacBook opening video and scroll-controlled playback speed
+   - Interactive 3D MacBook product viewer using React Three Fiber and Three.js with orbit controls, studio lighting, and snap-back physics
+   - Dynamic color and size selection that updates the 3D model in real-time using Zustand global state
+   - GSAP + ScrollTrigger for smooth scroll-based animations, model transitions, fade-ins, and parallax masked video effects
+   - Fullscreen video showcase section with SVG mask scaling, performance section with staggered image animations
+   - Rotating 3D MacBook with video texture on screen in features section, masonry layout highlights, semantic footer
+   - Fully responsive with mobile-optimized behavior (disabled heavy scroll animations on tablet/mobile)
+   - Clean Git workflow with meaningful commits throughout development
+
+3. Building a BlinkIt UI Clone with Flutter
+   - Complete pixel-perfect UI clone of the BlinkIt grocery delivery app
+   - Clean folder architecture: data, domain, repository separation
+   - Centralized Colors class, Poppins font family (regular & bold), asset management from Figma exports
+   - Custom splash screen with timer navigation to login
+   - Login screen with social login options and custom reusable button + text widgets
+   - Bottom navigation bar (Home, Cart, Category, Print) with stateful screen switching
+   - Category screen with horizontal scrolling lists (Vegetables & Fruits, Dairy, Snacks & Drinks, Household Essentials, etc.)
+   - Cart screen with custom app bar, CircleAvatar user icon using Stack + Positioned, reusable search text field
+   - Print Store screen with full UI implementation
+   - Home screen with red app bar, deals sections, Mega Diwali Sale, Crackers, Grocery & Kitchen categories, horizontal scrolling, dividers, and proper layout handling using Expanded, Padding, SizedBox
+   - Heavy use of reusable widgets for text, buttons, images, and consistent styling
+
+4. Building a LangChain and Flask Application with Tailwind CSS
+   - Real-time AI content generator web application
+   - Minimal Flask backend with routes for home page and /generate POST endpoint
+   - Tailwind CSS integrated via npm with watch mode for live reloading
+   - Frontend form that sends user prompt via fetch API to Flask
+   - LangChain + OpenAI API integration (temperature control, secure API key handling via environment variables)
+   - Dynamic injection of generated text into the DOM
+   - Full deployment and live testing on cloud IDE (Rappal)
+   - Proper JSON request/response handling and debugging of CORS/fetch issues
+
+5. Face Mask Detection with CNN: Detailed Implementation Guide
+   - Complete face mask detection system using Convolutional Neural Networks
+   - Dataset downloaded via Kaggle API (with_mask and without_mask folders)
+   - Images resized to 128x128, converted to RGB, stored as NumPy arrays
+   - Train-test split (80-20), pixel values scaled to [0,1]
+   - CNN architecture: Conv2D(32) → MaxPooling → Conv2D(64) → MaxPooling → Flatten → Dense(128) → Dropout(0.5) → Dense(64) → Dropout(0.5) → Dense(2, sigmoid)
+   - Compiled with Adam optimizer and sparse_categorical_crossentropy
+   - Trained for 5 epochs on Google Colab GPU with ~92–94% test accuracy
+   - Predictive system that takes any new image, preprocesses it, and outputs “wearing mask” or “not wearing mask”
+
+6. Building a Neural Network for Breast Cancer Classification with PyTorch
+   - From-scratch neural network implementation using PyTorch (no Keras)
+   - Breast cancer Wisconsin dataset loaded via sklearn
+   - StandardScaler preprocessing and train-test split
+   - Device-agnostic code (CUDA if available, else CPU)
+   - Custom NeuralNet class inheriting from nn.Module with fc1 → ReLU → fc2 → Sigmoid
+   - Manual training loop with optimizer.zero_grad(), forward pass, BCELoss, backward(), optimizer.step()
+   - Evaluation with torch.no_grad(), model.eval(), accuracy calculation via rounding sigmoid outputs
+   - Achieved ~97.3% training accuracy and ~96.4% test accuracy
+   - Full emphasis on PyTorch’s dynamic computation graph and flexibility compared to static graph frameworks
